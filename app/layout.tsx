@@ -6,7 +6,7 @@ export default function Layout({children}: {children: React.ReactNode}) {
     <html>
         <head>
             <title>Nextjs App Router</title>
-            <link rel='icon' href='/favicon.ico' />
+            <link rel='icon' href='/next-app-router-test/favicon.ico' />
         </head>
         <body>
             <main>{children}</main>
