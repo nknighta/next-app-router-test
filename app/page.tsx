@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 export default function Page() {
@@ -14,6 +15,16 @@ export default function Page() {
     }}>
       <h1>Hello, world!</h1>
       <h2>on Nextjs App Router</h2>
+      <span style={{height:"20px"}}></span>
+      <Link href='//nknighta.github.io/'>
+        My Sites
+      </Link>
+      <Link href="//github.com/nknighta/next-app-router-test">
+        Source Code
+      </Link>
+      <Link href="//github.com/nknighta/">
+        <p>@nknighta</p>
+      </Link>
     </div>
   );
 }
